@@ -1,0 +1,36 @@
+build_config.mk
+
+db_bench
+leveldbutil
+*_test
+
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.so.*
+*.dylib*
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+
+/project/
+
+# CMake
+/CMakeFiles/
+*.dir/
+cmake_install.cmake
+/CMakeCache.txt
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+build/CMakeCache.txt
+build/
+build_x86/
